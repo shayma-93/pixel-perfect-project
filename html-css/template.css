@@ -197,26 +197,31 @@ padding-top:6.55%;
   text-align: center;
   color: #091133;
 }
+.mask2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
+}
 
 .login {
   width: 100%;
   height: 742px;
-  color: #000;
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-right:  11.74%;
+  padding-left:  13.26%;
  
 }
 
 .page2-text {
  
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  padding-right: 1.04%;
- padding-left: 11.46%;
-padding-top: 3.46%;
+width: 100%;
+display: flex;
+flex-direction: column;
+padding-right: 1.04%;
 width: 540px  ;
 }
 .page2-text h2 {
@@ -234,9 +239,13 @@ margin-top: 0;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 26px;
   color: #505f98;
+font-size: 16px;
+line-height: 26px;
+
+
 margin-bottom: 0;
 margin-top: 10px;
 }
@@ -275,40 +284,56 @@ margin-top: 10px;
 .page2-image {
   width: 100%;
   height: 540px;
-  display: flex;
-  justify-content: center;
+flex-direction: row;
+justify-content: end;
 align-items: center;
-padding-top: 2.37%;
-
-
-
+margin-left: 20%;
+margin-bottom: 0;
+padding-bottom: 0;
 }
-.intro {
+
+.intro{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
 }
 .content {
   width: 100%;
-  height: 568px;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  align-items: center;
+  height: 568px;
+  padding-right:  11.74%;
   padding-left:  13.26%;
-  padding-top: 1.98%;
 
 }
 .intro-image {
-  width: 100%;
+  width: 480px;
+  height: 315.85px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
+align-items: center;
+}
+.intro-image img{
+  width: 480px;
+  height: 315.85px;
 
 }
-
+.txt{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: end;
+align-items: center;
+margin-bottom: 0;
+padding-bottom: 0;
+}
 .intro-text {
   height: 228px;
   width: 445px;
-padding-left: 20.76%;
-
 
 }
 .intro-text h2 {
@@ -318,6 +343,7 @@ padding-left: 20.76%;
   font-size: 36px;
   line-height: 48px;
   color: #091133;
+  margin-top: 0;
 
 }
 .intro-text p {
@@ -333,6 +359,7 @@ padding-left: 20.76%;
   height: 569px;
   display: flex;
   flex-direction: row;
+  align-items: center;
 
 }
 
@@ -342,14 +369,20 @@ padding-left: 20.76%;
   display: flex;
   flex-direction: row;
   justify-content: start;
+  align-items: center;
   padding-left:  13.26%;
-  padding-top: 1.98%;
+  padding-right:  11.74%;
 
+}
+.page3-image{
+  width: 540p  ;
+  height: 387px  ;
 }
 .page3-text {
   height: 228px;
   width: 445px;
-padding-left: 20.76%;
+  margin-top: 0;
+  padding-top: 0;
 }
 .page3 h2 {
   font-family: "Roboto";
@@ -359,7 +392,7 @@ padding-left: 20.76%;
   line-height: 48px;
   color: #091133;
   margin-top: 0;
-
+padding-top: 0;
 }
 .page3 p {
   font-family: "Roboto";
@@ -375,18 +408,17 @@ padding-left: 20.76%;
   height: 569px;
   display: flex;
   flex-direction: row;
+  align-items: center;
 
 
 }
 
 .content4 {
   width: 100%;
-  height: 568px;
   display: flex;
   flex-direction: row;
-  justify-content: start;
   padding-left:  13.26%;
-  padding-top: 1.98%;
+  padding-right:  11.74%;
  
 }
 .page4-image{
@@ -396,9 +428,6 @@ height: 313px;
 .page4-text {
   height: 238px;
   width: 445px;
-padding-left:  27.36%;
-
-
 
 }
 .page4 h2 {
@@ -442,7 +471,7 @@ padding-left:  27.36%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  align-items: center;
 }
 .content5 {
   width: 100%;
